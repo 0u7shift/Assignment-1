@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, tr, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td colspan="4">
+                <img src="http://www.quillnotaries.com/wp-content/uploads/2014/02/shutterstock_61526641-1000x200.png" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td><a href="#">home</a></td>
+            <td><a href="list.html">HTML List</a></td>
+            <td><a href="#">HTML img</a></td>
+            <td><a href="#">HTML Form</a></td>
+        </tr>
+        <tr>
+            <td colspan="4"></td>
+        </tr>
+    </table>
+
+    <form action="/action_page.php">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="fname"><br>
+
+        <label for="lname">Last name</label><br>
+        <input type="text" id="lname" name="lname" value="lname"><br><br>
+
+        <label for="fname">Phone Number:</label><br>
+        <input type="number" id="phone" name="phone" value="Phone number"><br>
+       
+        <p>Hvilket program er best</p>
+
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label><br>
+        
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">CSS</label><br>
+       
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">JavaScript</label><br>
+       
+
+        <p>hva trenger du?</p>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> En sykkel</label><br>
+
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> En bil</label><br>
+
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> En båt</label><br>
+
+
+        <p>Hvilken modell er best for deg?</p>
+        <label for="cars">Choose a car:</label>
+
+        <select name="cars" id="cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="mercedes">Mercedes</option>
+        <option value="audi">Audi</option>
+        <option value="dodge">Dodge</option>
+        </select>
+
+
+        
+
+
+
+    </form> 
+
+    <p>Skriv din kommentar:</p>
+    <textarea id="Kommentar" name="Kommentar" rows="9" cols="50">
+        
+    </textarea>
+
+</body>
+</html>
